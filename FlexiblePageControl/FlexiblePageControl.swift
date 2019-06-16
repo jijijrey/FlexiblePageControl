@@ -21,10 +21,10 @@ public class FlexiblePageControl: UIView {
         public var mediumDotSizeRatio: CGFloat
         
         public init(displayCount: Int = 7,
-                    dotSize: CGFloat = 6.0,
-                    dotSpace: CGFloat = 4.0,
+                    dotSize: CGFloat = 10.0,
+                    dotSpace: CGFloat = 7.0,
                     smallDotSizeRatio: CGFloat = 0.5,
-                    mediumDotSizeRatio: CGFloat = 0.7) {
+                    mediumDotSizeRatio: CGFloat = 1.0) {
             self.displayCount = displayCount
             self.dotSize = dotSize
             self.dotSpace = dotSpace
